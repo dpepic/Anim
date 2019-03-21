@@ -19,8 +19,11 @@
         android:id="@+id/imageView"
         android:layout_width="193dp"
         android:layout_height="213dp"
-        app:srcCompat="@drawable/a1"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="105dp" />
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="105dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a1" />
 
 </android.support.constraint.ConstraintLayout>
